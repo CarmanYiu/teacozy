@@ -1,0 +1,44 @@
+/* Universal */
+
+body {
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+  padding: 10px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+  /*position: fixed;*/
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav span {
+  margin: 10px;
+}
+
+nav a {
+  color: inherit;
+}
+
+.logo {
+  height: 50px;
+}
